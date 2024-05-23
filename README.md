@@ -63,7 +63,9 @@ For more examples and detailed documentation, please refer to the praml document
 ![image](https://github.com/Pradipta-Sundar-Sahoo/Praml-An-AutoML-from-prexisting-libraries/assets/157369477/3ae09691-478d-4a36-9cda-7127ecb7e861)
 
 - You can set different basis/metrics of choosing your model.
-
+```bash
+result = praml_search(dataset=df_iris, target_column=target_column, problem_type="classification", basis="accuracy",max_evals=25)
+```
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on the praml GitHub repository.
