@@ -1,25 +1,18 @@
 # praml: Python Automated Machine Learning Library
 
-praml is a simple Python library for automated machine learning (AutoML). It simplifies the process of building machine learning models by automating data preprocessing, model selection, hyperparameter tuning, and model evaluation.
+praml is a simple Python model for automated machine learning (AutoML). It simplifies the process of building machine learning models by automating data preprocessing, model selection, hyperparameter tuning, and model evaluation.
 
 ## Features
 
 - Automates data preprocessing including feature scaling and one-hot encoding for categorical variables.
 - Supports both classification and regression tasks.
 - Provides a variety of built-in models including linear models, tree-based models, support vector machines, and ensemble techniques.
-- Performs hyperparameter tuning using grid search cross-validation.
+- Performs hyperparameter optimisation using own HPO implementation(Tree-prazen estimator) and hyperopt.
 - Evaluates models based on customizable metrics such as accuracy, F1 score, recall, precision, and mean squared error.
 - Returns the best model along with its parameters and a ranklist of models based on performance.
 
-## Installation
-
-You can install praml using pip:
-
 ```bash
-pip install praml
-```
-```bash
-pip install -r requirements.txtz
+pip install -r requirements.txt
 ```
 ## Usage
 
