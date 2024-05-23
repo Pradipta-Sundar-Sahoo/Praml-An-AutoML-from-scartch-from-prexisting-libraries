@@ -54,8 +54,14 @@ For more examples and detailed documentation, please refer to the praml document
 
 ## Key highlights
 - integrated with various machine learning models for classification & regression and handle different data types(numerical,categorical, text and time_series data)
+![image](https://github.com/Pradipta-Sundar-Sahoo/Praml-An-AutoML-from-prexisting-libraries/assets/157369477/2e7b6116-0dd9-47a3-aa68-a521c57104fa)
+
 - ROC AUC, cross-validation, f1, accuracy, recall, precision scores are given in comparision with own HPO from scratch(TPE-optimisised) and pre-existing HPO library(hyperopt).
+![image](https://github.com/Pradipta-Sundar-Sahoo/Praml-An-AutoML-from-prexisting-libraries/assets/157369477/346339b2-8e09-4187-a910-0c7913e3c31f)
+
 - Along with best_model_name, best_model's parameters can also be accessed.
+![image](https://github.com/Pradipta-Sundar-Sahoo/Praml-An-AutoML-from-prexisting-libraries/assets/157369477/3ae09691-478d-4a36-9cda-7127ecb7e861)
+
 - You can set different basis/metrics of choosing your model.
 
 ## Contributing
